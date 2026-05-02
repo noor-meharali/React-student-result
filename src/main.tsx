@@ -5,6 +5,7 @@ import './index.css'
 // import Counter from './components/states/counter.tsx'
 import Navbar from './components/navbar/navbar.tsx'
 import ToDoList from './components/states/todo.tsx'
+import Footer from './components/footer/footer.tsx'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -13,6 +14,8 @@ createRoot(document.getElementById('root')!).render(
     {/* <App /> */}
     {/* <Counter /> */}
     <ToDoList />
+    <Footer />
+
   </StrictMode>,
    
 )
