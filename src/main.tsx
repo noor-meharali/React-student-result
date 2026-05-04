@@ -1,22 +1,34 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-// import App from './App.tsx'
-// import Counter from './components/states/counter.tsx'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/navbar/navbar.tsx'
-import ToDoList from './components/states/todo.tsx'
 import Footer from './components/footer/footer.tsx'
+import Home from './pages/home/home.tsx'
+import About from './pages/about/about.tsx'
+import Services from './pages/services/services.tsx'
+import Projects from './pages/projects/project.tsx'
+import Contact from './pages/contact/contact.tsx';
+import NotFound from './pages/not-found/not-found.tsx';
 
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-     <Navbar />
-    {/* <App /> */}
-    {/* <Counter /> */}
-    <ToDoList />
-    <Footer />
-
+    <BrowserRouter>
+      <Navbar />
+      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   </StrictMode>,
-   
 )
  

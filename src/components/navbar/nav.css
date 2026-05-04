@@ -58,7 +58,7 @@
   transform: translateY(-2px);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .navbar {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -75,12 +75,23 @@
   }
 
   .navbar .nav-links a {
-    font-size: 0.95rem;
+    font-size: 10px;
   }
 
   .logo img {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     margin: 0;
   }
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 12px;
+}
+
+.nav-links a.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  font-weight: bold;
 }

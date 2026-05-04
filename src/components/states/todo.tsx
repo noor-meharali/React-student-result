@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 import './todo.css';
 
 interface Todo {
@@ -33,7 +33,7 @@ function ToDoList() {
   const completedCount = todos.filter((todo) => todo.completed).length;
 
   return (
-    <div className="container">
+    <div className="todo-wrapper">
       <div className="header">
         <h1>📝 Todo List</h1>
         <p className="stats">
