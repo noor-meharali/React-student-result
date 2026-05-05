@@ -12,6 +12,8 @@ import Services from './pages/services/services.tsx'
 import Projects from './pages/projects/project.tsx'
 import Contact from './pages/contact/contact.tsx';
 import NotFound from './pages/not-found/not-found.tsx';
+import Login from './pages/loginForm/login/login.tsx';
+import Signup from './pages/loginForm/signup/signup.tsx';
 
 
 createRoot(document.getElementById('root')!).render(
@@ -25,6 +27,8 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/services" element={<Services />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

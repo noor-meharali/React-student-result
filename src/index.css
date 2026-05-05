@@ -1,3 +1,7 @@
+body {
+  margin-bottom: 4rem;
+}
+
 :root {
   /* Colors */
   --clr-bg: linear-gradient(135deg, #0d253f, #1f4f8b);

@@ -1,16 +1,9 @@
-/* ─────────────────────────────────────────────────────────
-   Add to index.html <head>:
-   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-───────────────────────────────────────────────────────── */
-
-/* ── Page wrapper ─────────────────────────────────────── */
 .page-wrapper {
   min-height: 100vh;
   background: var(--clr-bg);
   padding: 56px 0 72px;
 }
 
-/* ── Section heading ──────────────────────────────────── */
 .section-title {
   font-family: var(--font-display);
   font-size: 2.6rem;
@@ -34,22 +27,18 @@
   margin-bottom: 48px;
 }
 
-/* ── Section background ───────────────────────────────── */
 .courses-section {
   background: var(--clr-bg) !important;
 }
 
-/* ── Row spacing ──────────────────────────────────────── */
 .courses-row {
   margin-bottom: 0;
 }
 
-/* ── Col spacing ──────────────────────────────────────── */
 .course-col {
   padding: 12px;
 }
 
-/* ── Card ─────────────────────────────────────────────── */
 .course-card {
   background: var(--clr-surface) !important;
   border: 1px solid var(--clr-border) !important;
@@ -87,7 +76,6 @@
   transform: scaleX(1);
 }
 
-/* ── Icon wrap ────────────────────────────────────────── */
 .card-icon-wrap {
   background: var(--clr-accent-light);
   width: 100%;
@@ -101,7 +89,6 @@
   line-height: 1;
 }
 
-/* ── Card body ────────────────────────────────────────── */
 .card-body-custom {
   padding: 20px 20px 24px !important;
   display: flex;
@@ -109,7 +96,6 @@
   gap: 10px;
 }
 
-/* ── Badge ────────────────────────────────────────────── */
 .card-badge {
   display: inline-block;
   font-family: var(--font-body);
@@ -124,7 +110,6 @@
   width: fit-content;
 }
 
-/* ── Card title ───────────────────────────────────────── */
 .card-t {
   font-family: var(--font-display);
   font-size: 1.1rem;
@@ -134,7 +119,6 @@
   margin-bottom: 0;
 }
 
-/* ── Card text ────────────────────────────────────────── */
 .course-text {
   font-family: var(--font-body);
   font-size: 0.855rem;
@@ -145,7 +129,6 @@
   flex: 1;
 }
 
-/* ── Meta row ─────────────────────────────────────────── */
 .card-meta {
   display: flex;
   gap: 12px;
@@ -159,7 +142,6 @@
   font-weight: 400;
 }
 
-/* ── Button ───────────────────────────────────────────── */
 .course-btn {
   background: var(--clr-accent) !important;
   border: none !important;
@@ -181,7 +163,6 @@
   transform: translateX(2px);
 }
 
-/* ── Responsive ───────────────────────────────────────── */
 @media (max-width: 991px) {
   .section-title {
     font-size: 2rem;

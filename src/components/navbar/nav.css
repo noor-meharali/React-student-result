@@ -75,12 +75,12 @@
   }
 
   .navbar .nav-links a {
-    font-size: 10px;
+    font-size: 1.5vw;
   }
 
   .logo img {
-    width: 4rem;
-    height: 4rem;
+    width: 45px;
+    height: 45px;
     margin: 0;
   }
 }

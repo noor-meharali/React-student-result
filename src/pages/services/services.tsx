@@ -25,7 +25,9 @@ export default function Services() {
                     <span className="meta-item">⏱ 6 weeks</span>
                     <span className="meta-item">📘 12 lessons</span>
                   </div>
-                  <Button className="course-btn">Enroll Now</Button>
+                  <Button className="course-btn" href="/enroll/ui-design-basics">
+                    Enroll Now
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -44,7 +46,9 @@ export default function Services() {
                     <span className="meta-item">⏱ 8 weeks</span>
                     <span className="meta-item">📘 20 lessons</span>
                   </div>
-                  <Button className="course-btn">Enroll Now</Button>
+                  <Button className="course-btn" href="/enroll/react-development">
+                    Enroll Now
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -63,7 +67,9 @@ export default function Services() {
                     <span className="meta-item">⏱ 10 weeks</span>
                     <span className="meta-item">📘 25 lessons</span>
                   </div>
-                  <Button className="course-btn">Enroll Now</Button>
+                  <Button className="course-btn" href="/enroll/node-express">
+                    Enroll Now
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -82,7 +88,9 @@ export default function Services() {
                     <span className="meta-item">⏱ 7 weeks</span>
                     <span className="meta-item">📘 18 lessons</span>
                   </div>
-                  <Button className="course-btn">Enroll Now</Button>
+                  <Button className="course-btn" href="/enroll/databases-sql">
+                    Enroll Now
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -104,7 +112,9 @@ export default function Services() {
                     <span className="meta-item">⏱ 5 weeks</span>
                     <span className="meta-item">📘 15 lessons</span>
                   </div>
-                  <Button className="course-btn">Enroll Now</Button>
+                  <Button className="course-btn" href="/enroll/typescript-pro">
+                    Enroll Now
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -123,7 +133,9 @@ export default function Services() {
                     <span className="meta-item">⏱ 9 weeks</span>
                     <span className="meta-item">📘 22 lessons</span>
                   </div>
-                  <Button className="course-btn">Enroll Now</Button>
+                  <Button className="course-btn" href="/enroll/nextjs-deploy">
+                    Enroll Now
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -142,7 +154,9 @@ export default function Services() {
                     <span className="meta-item">⏱ 3 weeks</span>
                     <span className="meta-item">📘 10 lessons</span>
                   </div>
-                  <Button className="course-btn">Enroll Now</Button>
+                  <Button className="course-btn" href="/enroll/git-github">
+                    Enroll Now
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -161,7 +175,9 @@ export default function Services() {
                     <span className="meta-item">⏱ 4 weeks</span>
                     <span className="meta-item">📘 14 lessons</span>
                   </div>
-                  <Button className="course-btn">Enroll Now</Button>
+                  <Button className="course-btn" href="/enroll/html-css">
+                    Enroll Now
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
